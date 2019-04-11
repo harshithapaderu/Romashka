@@ -1,0 +1,38 @@
+body{
+	background-image: url("../Images/AJ3B2380.jpg");
+background-repeat: no-repeat;
+background-size: 100% 700px;
+}
+
+.simple-form{
+text-align: center;
+margin: 100px 400px;
+}
+.registration{
+	width: 100%;
+	background-color: #051019;
+	opacity: 0.8;
+	padding:50px 0px;
+}
+.button{
+	width: 250px;
+	padding: 10px;
+	border-radius: 5px;
+	outline: 0px;
+	
+}
+.but:hover {
+  background-color: #008000
+  color: white;
+}
+.but{
+	width: 250px;
+	padding: 10px;
+	border-radius:5px;
+	outline: 0px;
+	
+}
+.button {
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+}
