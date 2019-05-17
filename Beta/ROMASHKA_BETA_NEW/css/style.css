@@ -437,7 +437,7 @@ text-align: center;
     margin-left: 100px;
 }
 
-form {border: 3px solid #f1f1f1;}
+/*form {border: 3px solid #f1f1f1;}*/
 
 
 .loginBtn {
@@ -476,10 +476,14 @@ span.psw {
 
 .regBackImg{
     background-image: url("../images/AJ3B2380.jpg");
+    width: 100% !important;
+    background-size:     cover;
+    /*object-fit: cover;*/
+    background-repeat: no-repeat;
 }
 
 .userReg{
-    margin-top: 100px;
+    margin-top: 50px;
     text-align: center;
 }
 .regBtn{
@@ -491,7 +495,7 @@ span.psw {
 
     border: none;
     cursor: pointer;
-    /*width: 10%;*/
+    width: 30%;
 
 }
 .container_login{
@@ -504,7 +508,7 @@ span.psw {
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
-
+width: 30%;
     border: none;
     cursor: pointer;
 
@@ -512,4 +516,18 @@ span.psw {
 .userLogin{
     margin-top: 100px;
     text-align: center;
+}
+
+.dropdown_form{
+    width: 30%;
+    border-radius: 15px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.alert{
+   text-align: center !important;
 }
