@@ -39,7 +39,7 @@
         .column {
 
             width: 33.33%;
-            height: 400px;
+            /*height: 400px;*/
             margin-bottom: 1px;
             padding: 10px 8px;
         }
@@ -136,7 +136,7 @@
         <div class="row" >
             <div class="column">
                 <div class="card">
-                    <img src="images/img1.jpg" alt="Jane" style="width:100%;height:130px;margin-bottom: 10px;">
+                    <img src="images/img1.jpg" alt="Jane" style="width:100%;height:200px;margin-bottom: 10px; ">
                     <div class="container">
                         <h4>Jane Doe</h4>
                         <p class="title">Math Teacher</p>
@@ -149,7 +149,7 @@
 
             <div class="column">
                 <div class="card">
-                    <img src="images/img2.jpg" alt="Mike" style="width:100%;height:130px;margin-bottom: 10px;">
+                    <img src="images/img2.jpg" alt="Mike" style="width:100%;height:200px;margin-bottom: 10px;">
                     <div class="container">
                         <h4>Mike Ross</h4>
                         <p class="title">Art Teacher</p>
@@ -162,11 +162,11 @@
 
             <div class="column">
                 <div class="card">
-                    <img src="images/img3.jpg" alt="John" style="width:100%;height:130px;margin-bottom: 10px;">
+                    <img src="images/img3.jpg" alt="John" style="width:100%;height:200px;margin-bottom: 10px;">
                     <div class="container">
                         <h4>John Doe</h4>
                         <p class="title">Science Teacher</p>
-                        <p class="title1">30 year old very experienced teacher.</p>
+                        <p class="title1">30 year old very experienced professional teacher.</p>
                         <small>John@example.com</small>
                         <p><button class="button">Contact</button></p>
                     </div>
@@ -177,7 +177,7 @@
         <div class="row" >
             <div class="column">
                 <div class="card">
-                    <img src="images/img1.jpg" alt="Jane" style="width:100%;height:130px;margin-bottom: 10px;">
+                    <img src="images/img1.jpg" alt="Jane" style="width:100%;height:200px;margin-bottom: 10px;">
                     <div class="container">
                         <h4>Jane Doe</h4>
                         <p class="title">Math Teacher</p>
@@ -190,7 +190,7 @@
 
             <div class="column">
                 <div class="card">
-                    <img src="images/img2.jpg" alt="Mike" style="width:100%;height:130px;margin-bottom: 10px;">
+                    <img src="images/img2.jpg" alt="Mike" style="width:100%;height:200px;margin-bottom: 10px;">
                     <div class="container">
                         <h4>Mike Ross</h4>
                         <p class="title">Art Teacher</p>
@@ -203,7 +203,7 @@
 
             <div class="column">
                 <div class="card">
-                    <img src="images/img3.jpg" alt="John" style="width:100%;height:130px;margin-bottom: 10px;">
+                    <img src="images/img3.jpg" alt="John" style="width:100%;height:200px;margin-bottom: 10px;">
                     <div class="container">
                         <h4>John Doe</h4>
                         <p class="title">Science Teacher</p>
