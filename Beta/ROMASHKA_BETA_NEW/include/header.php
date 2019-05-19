@@ -25,7 +25,7 @@
                     <div class="dropdown ">
                         <button class="dropbtn">WHY US?</button>
                         <div class="dropdown-content">
-<!--                            <a class="nav-link" href="whyUs.php">ABOUT US</a>-->
+                            <a class="nav-link" href="aboutus.php">ABOUT US</a>
                             <a class="nav-link" href="ourTeam.php">OUR TEAM</a>
                             <a class="nav-link" href="courses.php">COURSES OFFERED</a>
                         </div>
