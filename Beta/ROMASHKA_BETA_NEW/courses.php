@@ -132,7 +132,7 @@
                     <div class="row">
 
                         <div class="container" style="width:100% ; text-align:center;">
-                            <h2>Courses We Offer</h2>
+                            <h2>Courses</h2>
                         </div>
                     </div>
                 </div>
