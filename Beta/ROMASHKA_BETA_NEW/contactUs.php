@@ -94,7 +94,7 @@
 		  <label><input type="radio" name="optradio" checked> No</label>
 		</div>
 	</div>
-    <button class="btn-success btn submitbtn">Send Messege</button>
+    <button class="btn-success btn submitbtn">Send Message</button>
 
   </form>
 </div> 
