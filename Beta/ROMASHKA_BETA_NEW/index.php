@@ -38,7 +38,7 @@
             <div class="carousel-caption">
                 <h1 class="display-2">WELCOME TO THE RUSSUIAN LANGUAGE SCHOOL</h1>
                 <h3>ROMASHKA</h3>
-                <button type="button" class="btn btn-outline-light btn-lg">LEARN MORE</button>
+                <button type="button" class="btn btn-outline-light btn-lg" href="aboutus.php">LEARN MORE</button>
             </div>
         </div>
         <div class="carousel-item">
