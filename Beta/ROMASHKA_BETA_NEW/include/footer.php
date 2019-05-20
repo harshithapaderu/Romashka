@@ -11,7 +11,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-4 col-ms-4 col-xs-12 myCols">
-					<a href="index.html" class="footerlogo"><img src="images/footer_logo.png"/> &nbsp;<span>RUSSIAN LANGUAGE SCHOOL, <br>ROMAKSHA</span></a>
+					<a href="index.html" class="footerlogo"><img src="images/footer_logo.png"/> &nbsp;<span>RUSSIAN LANGUAGE SCHOOL, <br>ROMASHKA</span></a>
 					<div class="address">
 						<h6><img src="images/map.png"> 6 Lawson Street,Southport Gold coast, Queensland</h6>
 					</div>
