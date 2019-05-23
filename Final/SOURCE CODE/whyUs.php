@@ -125,7 +125,7 @@
             <div class="column1">
                 <div class="card">
                     <div class="container" style="width:100%">
-                        <h4 class="nav-link">WHO we ARE?</h4>
+                        <h4 class="nav-link">WHO WE ARE?</h4>
                         <p class="title2">
                             Russian Language School “Romashka” is a not-for profit organization, which provides a good quality
                             of education for Russian children who were born in Australia or who came in Australia at a young

@@ -107,9 +107,13 @@
 
             background-color: #eee;
 
-            border: 4px solid #555555;
+            /*border: 4px solid #555555;*/
 
             align: center
+        }
+
+        h2 {
+            text-shadow: 1px 1px 2px grey;
         }
     </style>
 
@@ -126,7 +130,7 @@
                     <div class="row">
 
                         <div class="container" style="width:100% ; text-align:center;">
-                            <h2>Meet Our Team</h2>
+                            <h2>OUR TEAM</h2>
                         </div>
                     </div>
                 </div>

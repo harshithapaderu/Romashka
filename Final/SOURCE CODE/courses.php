@@ -112,10 +112,11 @@
             margin-right: 12%;
 
             background-color: #eee;
-
-            border: 4px solid #555555;
-
             align: center
+        }
+
+        h2 {
+            text-shadow: 1px 1px 2px grey;
         }
     </style>
 
@@ -156,7 +157,42 @@
                             <div class="container5">
                                 <h4>Russian Math</h4>
                                 <p class="title1">Mathematics includes the study of such topics as quantity, structure, space, and change. Mathematicians seek and use....</p>
-                                
+                                <button type="button" class="btn btn-success btn-block" onclick="window.location.href = 'https://romashka.foxycart.com/cart?name=Cool%20Example&price=10&color=red&code=sku123'"> Buy </button>
+                                <script>
+                                    function cartFunction()   {
+                                        <!-- link example -->
+
+                                    <a href="https://romashka.foxycart.com/cart?name=Cool%20Example&price=10&color=red&code=sku123">Trimester</a>
+                                            <!-- form example -->
+
+                                            <form action="https://romashka.foxycart.com/cart" method="post" accept-charset="utf-8">
+
+                                            <input type="hidden" name="Trimester payment" value="Trimester payment" />
+
+                                            <input type="hidden" name="720" value="720" />
+
+                                            <input type="hidden" name="sku123" value="sku123" />
+
+                                            <label class="label_left">Size</label>
+
+                                            <select name="size">
+
+                                            <option value="small">Small</option>
+
+                                            <option value="medium">Medium</option>
+
+                                            <option value="large">Large</option>
+
+                                            </select>
+
+                                            <input type="submit" value="Trimester payment" class="submit" />
+
+                                            </form>
+
+
+
+                                    }
+</script>
                             </div>
                         </div>
 
@@ -179,7 +215,43 @@
                             <div class="container5">
                                 <h4>Russian Science</h4>
                                 <p class="title1">The strength of Science and its online journal sites rests with the strengths of its community of authors, who provide....</p>
-                                
+                                <button type="button" class="btn btn-success btn-block" onclick="window.location.href = 'https://romashka.foxycart.com/cart?name=Cool%20Example&price=10&color=red&code=sku123'"> Buy </button>
+                                <script>
+                                    function cartFunction()   {
+                                        <!-- link example -->
+
+                                    <a href="https://romashka.foxycart.com/cart?name=Cool%20Example&price=10&color=red&code=sku123">Trimester</a>
+
+                                            <!-- form example -->
+
+                                            <form action="https://romashka.foxycart.com/cart" method="post" accept-charset="utf-8">
+
+                                            <input type="hidden" name="name" value="Trimester payment" />
+
+                                            <input type="hidden" name="price" value="720" />
+
+                                            <input type="hidden" name="code" value="sku123" />
+
+                                            <label class="label_left">Size</label>
+
+                                            <select name="size">
+
+                                            <option value="small">Small</option>
+
+                                            <option value="medium">Medium</option>
+
+                                            <option value="large">Large</option>
+
+                                            </select>
+
+                                            <input type="submit" value="Trimester payment" class="submit" />
+
+                                            </form>
+
+
+
+                                    }
+                                </script>
                             </div>
                         </div>
 
@@ -204,7 +276,42 @@
                             <div class="container5">
                                 <h4>Russian Language</h4>
                                 <p class="title1">Russian is the largest native language in Europe and the most geographically widespread language in Eurasia. It is the ....</p>
-                                
+                                <button type="button" class="btn btn-success btn-block" onclick="window.location.href = 'https://romashka.foxycart.com/cart?name=Cool%20Example&price=10&color=red&code=sku123'"> Buy </button>
+                                <script>
+                                    function cartFunction()   {
+                                        <!-- link example -->
+
+                                    <a href="https://romashka.foxycart.com/cart?name=Cool%20Example&price=10&color=red&code=sku123">Trimester</a>
+                                            <!-- form example -->
+
+                                            <form action="https://romashka.foxycart.com/cart" method="post" accept-charset="utf-8">
+
+                                            <input type="hidden" name="name" value="Trimester payment" />
+
+                                            <input type="hidden" name="price" value="720" />
+
+                                            <input type="hidden" name="code" value="sku123" />
+
+                                            <label class="label_left">Size</label>
+
+                                            <select name="size">
+
+                                            <option value="small">Small</option>
+
+                                            <option value="medium">Medium</option>
+
+                                            <option value="large">Large</option>
+
+                                            </select>
+
+                                            <input type="submit" value="Trimester payment" class="submit" />
+
+                                            </form>
+
+
+
+                                    }
+                                </script>
                             </div>
                         </div>
 
@@ -227,7 +334,7 @@
                             <div class="container5">
                                 <h4>Russian Literature</h4>
                                 <p class="title1">Literature, a body of written works. The name has traditionally been applied to those imaginative works of poetry and prose....</p>
-                                <button type="button" onclick="window.location.href = 'https://romashka.foxycart.com/cart?name=Cool%20Example&price=10&color=red&code=sku123'"> Pay for subject </button>
+                                <button type="button" class="btn btn-success btn-block" onclick="window.location.href = 'https://romashka.foxycart.com/cart?name=Cool%20Example&price=10&color=red&code=sku123'"> Buy </button>
                                 <script>
                                         function cartFunction()   {
                                              <!-- link example -->

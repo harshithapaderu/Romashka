@@ -30,6 +30,7 @@
     <ul class="carousel-indicators">
         <li data-target="#slides" data-slide-to="0" class="active"></li>
         <li data-target="#slides" data-slide-to="1"></li>
+        <li data-target="#slides" data-slide-to="2"></li>
 
     </ul>
     <div class="carousel-inner">
@@ -43,6 +44,19 @@
         </div>
         <div class="carousel-item">
             <img src="images/header2.png">
+            <div class="carousel-caption">
+                <h1 class="display-2">WELCOME TO THE RUSSUIAN LANGUAGE SCHOOL</h1>
+                <h3>ROMASHKA</h3>
+                <a class="btn btn-outline-light btn-lg" href="aboutus.php">LEARN MORE</a>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/header3.jpg">
+            <div class="carousel-caption">
+                <h1 class="display-2">WELCOME TO THE RUSSUIAN LANGUAGE SCHOOL</h1>
+                <h3>ROMASHKA</h3>
+                <a class="btn btn-outline-light btn-lg" href="aboutus.php">LEARN MORE</a>
+            </div>
         </div>
     </div>
 </div>

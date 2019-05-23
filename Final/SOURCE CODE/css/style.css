@@ -96,6 +96,7 @@ height: 100%;
 }
 .col-11 h2{
   float: right;
+
 }
 .fa-facebook{
   color: #3b5998;
@@ -169,6 +170,8 @@ social a {
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
 }
+
+
 /*--- Fixed Background Image --*/
 figure {
   position: relative;
@@ -260,6 +263,8 @@ Extra (xl) large devices (large desktops, 1200px and up)
 	font-size: 28px;
 }
 
+
+
 @media screen and (max-width: 767px){
 	#myFooter {
 		text-align: center;
@@ -329,16 +334,41 @@ footer .footerlogo span{
 	text-align:  center;
 }
 .social_links h5{
-	font-size: 16px;
+	font-size: 20px;
+    font-family:"Montserrat Thin";
 }
 .social_links .social_1{
     display: inline-block;
     width: auto !important;
     float: none !important;
 }
+
+
 .social_links .social_1 img {
     width: 56px;
 }
+
+/*Sponsors*/
+
+.sponsors{
+    width: 30%;
+    float: left;
+    text-align:  center;
+}
+.sponsors h5{
+    font-size: 16px;
+}
+.sponsors .logo{
+    display: inline-block;
+    width: auto !important;
+    float: none !important;
+}
+
+
+.sponsors .logo img {
+    width: 56px;
+}
+
 .whyus {
     background-image: url(../images/bgimg.jpg);
     background-attachment: fixed;
@@ -362,11 +392,13 @@ footer .footerlogo span{
     font-size: 14px;
     margin-bottom: 10px;
 }
-.title2 {
 
+
+.title2 {
     font-size: 15px;
     margin-bottom: 10px;
 }
+
 .contact_us{
 	background-image: url(../images/bgimg.jpg);
     background-attachment: fixed;
@@ -531,3 +563,4 @@ width: 30%;
 .alert{
    text-align: center !important;
 }
+

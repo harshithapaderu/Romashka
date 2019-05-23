@@ -98,11 +98,14 @@
         margin-right: 15%;
 
   background-color: #eee;
-
-	  border: 4px solid #555555;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	  /*border: 4px solid #555555;*/
 
   align: center
 }
+    h2 {
+        text-shadow: 1px 1px 2px grey;
+    }
 </style>
 
 </head>
@@ -143,7 +146,7 @@ groups of 8 to 10 students.
         <h4 class="nav-link">OUR MISSION:</h4>
         <p class="title2">
 The primary goal of this project is to develop a responsive website with high efficiency, learnability,
-memorability and safety; for the staff, students/parents of the Russian language school- Romashka
+memorability and safety; for the staff, students/parents of the Russian language school - Romashka
 (Daisy). The secondary goal is to create centralized solution for the marketing team of the school.
 Online Presence is very crucial to any business these days in order to promote themselves. This
 website will trigger exactly this and will help in having all activities - general information, enrolment,

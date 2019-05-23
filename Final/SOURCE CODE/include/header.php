@@ -27,7 +27,7 @@
                         <div class="dropdown-content">
                             <a class="nav-link" href="aboutus.php">ABOUT US</a>
                             <a class="nav-link" href="ourTeam.php">OUR TEAM</a>
-                            <a class="nav-link" href="courses.php">COURSES OFFERED</a>
+                            <a class="nav-link" href="courses.php">COURSES</a>
                         </div>
                     </div>
                 </li>
