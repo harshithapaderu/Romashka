@@ -1,0 +1,533 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900);
+
+html, body{
+  height: 100%;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  color: #222;
+}
+
+.dropbtn {
+    color: #05935d !important;
+    background-color: white;
+
+    font-size: 1em !important;
+    font-weight: bold;
+
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    padding-top: 6px;
+
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: lightgrey;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: white;
+    color: #007146 !important;
+}
+
+.navbar{
+  padding: .8rem;
+}
+.navbar-nav li{
+  padding-right: 20px;
+}
+.nav-link{
+	font-size: 1em !important;
+    color: #05935d !important;
+    font-weight: bold;
+  
+}
+.nav-link:focus, .nav-link:hover {
+    color: #007146 !important;  
+}
+.carousel-inner img{
+width: 100%;
+height: 100%;    
+}
+.carousel-caption{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.carousel-caption h1{
+  float: bottom;
+  font-size: 200%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
+}
+.carousel-caption h3{
+  font-size: 400%;
+  font-weight: 500;
+  text-shadow: 1px 1px 10px #000;
+  padding-bottom: 1rem;
+}
+.btn-primary{
+  background-color: #6648b1;
+  border: 1px solid #6648b1;
+}
+.btn-primary:hover{
+  background-color: #563d7c;
+  border:1px solid #563d7c;
+}
+.social a {
+  font-size: 9.5em;
+  padding: 6rem;
+  float: right;
+}
+.col-11 h2{
+  float: right;
+}
+.fa-facebook{
+  color: #3b5998;
+}
+.fa-linkedin{
+  color: #00aced;
+}
+.fa-instagram{
+  color: #517fa4;
+}
+.fa-facebook: hover,
+.fa-linkedin: hover,
+.fa-instagram: hover{
+  color: #d5d5d5;
+}
+
+
+
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+  .social a {
+    font-size: 4em;
+    padding: 2rem;
+  }
+  }
+@media (max-width: 768px) {
+.carousel-caption{
+  top: 45%;
+}
+.carousel-caption h1{
+  font-size: 350%
+}
+.carousel-caption h3{
+  font-size: 140%;
+  font-weight: 400;
+  padding-bottom: .2rem;
+}
+.caorusel-caption .btn{
+  font-size: 95%;
+  padding: 8px 14px;
+}
+social a {
+    font-size: 2.5em;
+    padding: 1.2rem;
+  }
+
+}
+@media (max-width: 576px) {
+  .carousel-caption{
+  top: 40%;
+}
+.carousel-caption h1{
+  font-size: 250%
+}
+.carousel-caption h3{
+  font-size: 110%;
+}
+.caorusel-caption .btn{
+  font-size: 90%;
+  padding: 4px 8px;
+}
+}
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('img/mac.png');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+		#myFooter {
+	background-color: #ffffff;
+	color:black;
+}
+
+
+#myFooter ul{
+	list-style-type: none;
+    padding-left: 0;
+    line-height: 1.2;
+
+}
+			
+			
+#myFooter a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    width: 100%;
+    float: left;
+}
+
+#myFooter a:hover, #myFooter a:focus{
+	text-decoration: none;
+	color:black;
+}
+
+#myFooter .myCols{
+	text-align: left;
+	font-size: 28px;
+    position: relative;
+}
+
+#myFooter .myCols1{
+	text-align: right;
+	font-size: 28px;
+}
+
+@media screen and (max-width: 767px){
+	#myFooter {
+		text-align: center;
+	}
+}
+
+
+.nav_bg {
+    background-color: #ffffff!important;
+}
+.nav_bg .navbar-brand img {
+    width: 250px;
+        height: 60px;
+
+} 
+.display-2 {
+    font-weight: inherit;
+}
+.diff_color {
+    color: #9cc549 !important;
+}
+.nav-link img{
+    width: 30px;
+}
+.navbar-nav .pd0 a{
+	padding-right: 0 !important; 
+	padding-left: 0 !important; 
+}
+.pd0{
+	padding: 0 !important;
+}
+footer .footerlogo img {
+    width: 70px;
+}
+footer .rom_hd{
+    font-size: 26px;
+    /*position: absolute;*/
+    top: 52px;
+    /*left: 60px;*/
+    margin-left: 20px;
+
+}
+footer .footerlogo span{
+    position: absolute;
+    top: 13px;
+    width: 100%;
+    float: left;
+}
+.address h6 img {
+    width: 34px;
+}
+.address h6{
+	font-size: 14px;
+    color: black;
+    font-weight: 600;
+    margin: 0;
+}
+.address {
+
+    width: 100%;
+    float: left;
+    /*padding: 10px 15px 0;*/
+}
+.social_links{
+	width: 100%;
+	float: left;
+	text-align:  center;
+}
+.social_links h5{
+	font-size: 16px;
+}
+.social_links .social_1{
+    display: inline-block;
+    width: auto !important;
+    float: none !important;
+}
+.social_links .social_1 img {
+    width: 56px;
+}
+.whyus {
+    background-image: url(../images/bgimg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+	padding: 30px 0;
+}
+.whyus .card small {
+    margin-bottom: 10px;
+    width: 100%; 
+    float: left;
+}
+.whyus .card h4 {
+    font-size: 18px;
+}
+.whyus .card .title {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.whyus .card .title1 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.title2 {
+
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.contact_us{
+	background-image: url(../images/bgimg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+	padding: 40px 0;
+    width: 100%;
+    float: left;
+}
+.contact_us .container{
+	display: table;
+	}
+.cont_hd{
+    font-size: 45px;
+    padding: 0 32px;
+    color: white;
+}
+.contact_form label {
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.contactform_box{
+	width: 100%;
+    float: left;
+}
+.contactform_box form .form-control{
+	background-color: #0000000f;
+    background-clip: padding-box;
+    border: 1px solid transparent;
+    border-radius: 0;
+}
+.contactform_box form [class*="col-"] {
+    padding: 0 1rem;
+}
+.pdryt{
+	padding-right: 0.2rem !important;
+}
+.pdlft{
+	padding-left: 0.2rem !important;
+}
+.contactform_box form .form-group{
+	margin-bottom: 6px;
+}
+.contactform_box form button{
+	background-color: #f18c44;
+	border: 1px solid #f18c44;
+	color: white;
+	text-align: center;
+    font-size: 14px;
+    width: 100%;
+    border-radius: 0;
+    margin: 10px 0 0;
+	transition: .4s;
+	font-weight: 600;
+}
+.contactform_box form button:hover, .contactform_box form button:focus, .contactform_box form button:active {
+	background-color: #de7a33;
+	border: 1px solid #f18c44;
+	transition: .4s;
+	outline: none;
+}
+/*** ADMIN LOGIN*/
+
+.admin-header{
+text-align: center;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+/*form {border: 3px solid #f1f1f1;}*/
+
+
+.loginBtn {
+    background-color: #05935d ;
+    border-radius: 15px;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+text-align: center;
+    border: none;
+    cursor: pointer;
+
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+
+
+.container {
+    padding: 16px;
+    text-align: center;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+.regBackImg{
+    background-image: url("../images/AJ3B2380.jpg");
+    width: 100% !important;
+    background-size:     cover;
+    /*object-fit: cover;*/
+    background-repeat: no-repeat;
+}
+
+.userReg{
+    margin-top: 50px;
+    text-align: center;
+}
+.regBtn{
+    background-color: #05935d ;
+    border-radius: 15px;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+
+    border: none;
+    cursor: pointer;
+    width: 30%;
+
+}
+.container_login{
+    padding: 16px;
+    text-align: center;
+}
+.loginBtn{
+    background-color: #05935d ;
+    border-radius: 15px;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+width: 30%;
+    border: none;
+    cursor: pointer;
+
+}
+.userLogin{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.dropdown_form{
+    width: 30%;
+    border-radius: 15px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.alert{
+   text-align: center !important;
+}

@@ -70,8 +70,8 @@
             <div class="col-sm-4 col-ms-4 col-xs-12 myCols">
                 <div class="social_links">
                     <h5>OUR SPONSORS</h5>
-                    <a href="#" class="social_1"><img src="../images/logo2s.jpg"/></a>
-                    <a href="#" class="social_1"><img src="../images/sponsor1.jpg"/></a>
+                    <a href="https://www.rarc.com.au" class="social_1"><img src="../images/logo2s.jpg"/></a>
+                    <a href="https://www.gcatennis.com.au" class="social_1"><img src="../images/sponsor1.jpg"/></a>
 
                 </div>
             </div>
@@ -80,7 +80,7 @@
                 <div class="social_links">
                     <h5>GET IN TOUCH</h5>
 
-                    <h6>Phone: 0468926494</h6>
+                    <h6>Phone: 046 892 6494</h6>
                     <h6>Email: info@schoolromashka.com.au</h6>
 
                     <a href="https://www.facebook.com/schoolromashka/" class="social_1"><img src="../images/facebook.svg"/></a>

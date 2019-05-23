@@ -1,23 +1,10 @@
 
-<!--/**-->
 <!-- * Created by PhpStorm.-->
 <!-- * User: HP-->
 <!-- * Date: 4/24/2019-->
 <!-- * Time: 11:17 AM-->
 <!-- */-->
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Romashka Russian Language School</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
-
-    <link href="../css/style.css" rel="stylesheet">
-</head>
-<body>
 
 <!-- Navigation -->
 <nav class="navbar navbar-expand-md navbar-light nav_bg sticky-top">
@@ -35,8 +22,18 @@
                     <a class="nav-link" href="index.php">HOME</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="whyUs.php">WHY US?</a>
-
+                    <div class="dropdown ">
+                        <button class="dropbtn">WHY US?</button>
+                        <div class="dropdown-content">
+                            <a class="nav-link" href="aboutus.php">ABOUT US</a>
+                            <a class="nav-link" href="ourTeam.php">OUR TEAM</a>
+                            <a class="nav-link" href="courses.php">COURSES OFFERED</a>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="event.php">EVENTS</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contactUs.php">CONTACT US</a>
@@ -51,11 +48,11 @@
                 </li>
                 <li><a class="nav-link diff_color" href="registration.php">SIGN UP</a></li>
                 <li class="pd0"><a class="nav-link" href="#"><img src="images/search.png"/></a></li>
-                <li class="pd0"class="pd0"><a class="nav-link" href="#"><img src="images/profile.png"/></a></li>
+                <li class="pd0"class="pd0"><a class="nav-link" href="http://romashka.ictatjcub.com/moodle/"><img src="images/profile.png"/></a></li>
+                <li class="pd0"class="pd0"><a class="nav-link" href="https://romashka.foxycart.com/cart"><img src="images/shopping-cart.png"/></a></li>
 
             </ul>
         </div>
     </div>
 
 </nav>
-
