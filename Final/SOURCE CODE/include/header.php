@@ -39,7 +39,7 @@
                     <a class="nav-link" href="contactUs.php">CONTACT US</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">NEWS</a>
+                    <a class="nav-link" href="newslist.php">NEWS</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">GALLERY</a>
