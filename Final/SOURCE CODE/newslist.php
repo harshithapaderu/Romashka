@@ -123,7 +123,7 @@
                     <div class="row">
 
                         <div class="container" style="width:100% ; text-align:center; ">
-                            <h2>News</h2>
+                            <h2>NEWS</h2>
                         </div>
                     </div>
                 </div>
