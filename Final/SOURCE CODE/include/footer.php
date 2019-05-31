@@ -31,7 +31,7 @@
                         <h5>GET IN TOUCH</h5>
 
                         <h6>Phone: 046 892 6494</h6>
-                        <h6>Email: <a href="info@schoolromashka.com.au">info@schoolromashka.com.au</a></h6>
+                        <h6>Email: <a href="mailto:info@schoolromashka.com.au">info@schoolromashka.com.au</a></h6>
 
 	            <a href="https://www.facebook.com/schoolromashka/" class="social_1"><img src="images/facebook.svg"/></a>
                     <a href="https://www.linkedin.com/in/romashka-ictatjcub-507267188/" class="social_1"><img src="images/linked_in.svg"/></a>
