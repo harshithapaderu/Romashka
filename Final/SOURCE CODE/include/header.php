@@ -35,20 +35,21 @@
                 <li class="nav-item">
                     <a class="nav-link" href="event.php">EVENTS</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contactUs.php">CONTACT US</a>
-                </li>
+                
                 <li class="nav-item">
                     <a class="nav-link" href="newslist.php">NEWS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">GALLERY</a>
+                    <a class="nav-link" href="gallery.php">GALLERY</a>
                 </li>
-                <li><a class="nav-link diff_color" href="login.php">LOGIN</a>
+                   
+                 <li class="nav-item">
+                    <a class="nav-link" href="contactUs.php">CONTACT US</a>
+                </li>
+                <li><a class="nav-link diff_color" href="http://romashka.ictatjcub.com/moodle2/login/index.php">LOGIN</a>
                 </li>
                 <li><a class="nav-link diff_color" href="registration.php">SIGN UP</a></li>
-                <li class="pd0"><a class="nav-link" href="#"><img src="images/search.png"/></a></li>
-                <li class="pd0"class="pd0"><a class="nav-link" href="http://romashka.ictatjcub.com/moodle/"><img src="images/profile.png"/></a></li>
+            
                 <li class="pd0"class="pd0"><a class="nav-link" href="https://romashka.foxycart.com/cart"><img src="images/shopping-cart.png"/></a></li>
 
             </ul>
