@@ -36,7 +36,7 @@
 <div class="regBackImg">
 <h2 class="userReg" style="color: white">User Registration</h2>
 
-<form action="registration.php" method="post">
+<form action="include/register.php" method="post">
 
     <div class="container">
 
@@ -44,22 +44,19 @@
         <br>
         <input type="text" placeholder="Enter Last Name" name="lname" required>
         <br>
-        <input type="email" placeholder="Enter Email Address" name="psw" required>
+        <input type="email" placeholder="Enter Email Address" name="email" required unique>
         <br>
-        <input type="password" placeholder="Enter Password" name="psw" required>
+        <input type="text" placeholder="Enter Phone Number" name="phone" maxlength="10" required unique>
         <br>
-        <input type="password" placeholder="Enter Confirm password" name="confirmpsw" required>
+        <input type="text" placeholder="Enter Street Address" name="street" required>
         <br>
-
-        <input type="text" placeholder="Enter Phone Number" name="phn" maxlength="10" required>
-        <br>
-        <input type="text" placeholder="Enter Street Address" name="streetAdd" required>
+        <input type="text" placeholder="Enter Zip Code" name="zip" required>
         <br>
 
-<!--        <input type="text" placeholder="Enter State" name="state" required>-->
+<!--        <input type="text" placeholder="Select State" name="state" required>-->
 
         <select name="state" class="dropdown_form">
-            <option value="">Please Select State</option>
+            <option value="">Select your State</option>
             <option value="qld">QLD</option>
             <option value="nsw">NSW</option>
             <option value="saustralia">SA</option>
@@ -67,8 +64,6 @@
             <option value="wa">WA</option>
         </select>
         <br>
-
-
 
     <button  class="regBtn" type="submit">Sign Up</button>
     </div>
