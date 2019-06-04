@@ -50,10 +50,12 @@
                 </li>
                 <li><a class="nav-link diff_color" href="registration.php">SIGN UP</a></li>
             
-                <li class="pd0"class="pd0"><a class="nav-link" href="https://romashka.foxycart.com/cart"><img src="images/shopping-cart.png"/></a></li>
+                <li class="pd0"class="pd0"><a class="nav-link" href="https://payforcourse.foxycart.com/cart"><img src="images/shopping-cart.png"/></a></li>
 
             </ul>
         </div>
     </div>
 
+
 </nav>
+
