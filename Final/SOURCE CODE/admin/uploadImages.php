@@ -92,7 +92,7 @@ if (isset($_POST["submit"])) {
         color: white;
         padding: 14px 20px;
         margin: 8px 0;
-        width: 12%;
+        width: 120px;
         border: none;
         cursor: pointer;
     }
