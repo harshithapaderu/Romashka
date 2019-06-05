@@ -129,6 +129,7 @@ if (isset($_POST["submit"])) {
                     <li><a href="dashboard.php">Students Detail</a></li>
                     <li><a href="registeredTeachers.php">Teachers Detail</a></li>
                     <li  class="active"><a href="uploadImages.php">Add Images to Gallery</a></li>
+                    <li><a href="deleteImages.php">Delete Images from Gallery</a></li>
                     <li><a href="message.php">Message</a></li>
                 </ul>
             </div>
