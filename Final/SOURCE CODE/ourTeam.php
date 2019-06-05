@@ -141,8 +141,8 @@
                     <div class="container">
                         <h4>Jane Doe</h4>
                         <p class="title">Maths Teacher</p>
-                        <p class="title1">She is 30 year old very experienced teacher.</p>
-                        <small>jane@romashka.com</small>
+                        <p class="title1">She is 30 year old very experienced and talented teacher.</p>
+                       <small>jane@romashka.com</small>
 
                         <button type="button" class="btn btn-success btn-block" style="width:50%;margin-left:25%" onclick="location.href='mailto:jane@romashka.com'">Contact</button>
                     </div>
@@ -155,7 +155,7 @@
                     <div class="container">
                         <h4>Mike Ross</h4>
                         <p class="title">Arts Teacher</p>
-                        <p class="title1">Experienced with unique teaching style.Hardworking and punctual</p>
+                        <p class="title1">Unique teaching style, hardworking and punctual.</p>
                         <small>mike@romashka.com</small>
                         <button type="button" class="btn btn-success btn-block" style="width:50%;margin-left:25%" onclick="location.href='mailto:mike@romashka.com'">Contact</button>
                     </div>
@@ -169,8 +169,8 @@
                         <h4>John Doe</h4>
                         <p class="title">Science Teacher</p>
                         <p class="title1">30 year old very experienced professional teacher.</p>
-                        <small>John@example.com</small>
-                        <button type="button" class="btn btn-success btn-block" style="width:50%;margin-left:25%" >Contact</button>
+                        <small>john@romashka.com</small>
+                        <button type="button" class="btn btn-success btn-block" style="width:50%;margin-left:25%" onclick="location.href='mailto:john@romashka.com'" >Contact</button>
                     </div>
                 </div>
             </div>
@@ -184,8 +184,9 @@
                         <h4>Jane Doe</h4>
                         <p class="title">Maths Teacher</p>
                         <p class="title1">32 year old very experienced teacher.</p>
-                        <small>Jane@example.com</small>
-                        <button type="button" class="btn btn-success btn-block" style="width:50%;margin-left:25%" >Contact</button>
+                        <small>jane@romashka.com</small>
+
+                        <button type="button" class="btn btn-success btn-block" style="width:50%;margin-left:25%" onclick="location.href='mailto:jane@romashka.com'">Contact</button>
                     </div>
                 </div>
             </div>
@@ -197,8 +198,8 @@
                         <h4>Mike Ross</h4>
                         <p class="title">Arts Teacher</p>
                         <p class="title1">30 year old very experienced teacher.</p>
-                        <small>Mike@example.com</small>
-                        <button type="button" class="btn btn-success btn-block" style="width:50%;margin-left:25%" >Contact</button>
+                         <small>mike@romashka.com</small>
+                        <button type="button" class="btn btn-success btn-block" style="width:50%;margin-left:25%" onclick="location.href='mailto:mike@romashka.com'">Contact</button>
                     </div>
                 </div>
             </div>
@@ -210,8 +211,8 @@
                         <h4>John Doe</h4>
                         <p class="title">Science Teacher</p>
                         <p class="title1">30 year old very experienced teacher.</p>
-                        <small>John@example.com</small>
-                        <button type="button" class="btn btn-success btn-block" style="width:50%;margin-left:25%" >Contact</button>
+                        <small>john@romashka.com</small>
+                        <button type="button" class="btn btn-success btn-block" style="width:50%;margin-left:25%" onclick="location.href='mailto:john@romashka.com'" >Contact</button>
                     </div>
                 </div>
             </div>
