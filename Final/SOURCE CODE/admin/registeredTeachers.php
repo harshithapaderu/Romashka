@@ -1,3 +1,12 @@
+<!---->
+<!--/**-->
+<!-- * Created by PhpStorm.-->
+<!-- * User: HP-->
+<!-- * Date: 5/30/2019-->
+<!-- * Time: 11:40 PM-->
+<!-- */-->
+
+
 <?php
 session_start();
 include("../db/config.php");
@@ -5,28 +14,27 @@ if (!isset($_SESSION['fname']) && !isset($_SESSION['lname'])) {
     header('location:admin/admin-login.php');
 }
 $conn= db_connect();
-$query = "SELECT * FROM user WHERE role='student'";
+$query = "SELECT * FROM user WHERE role='teacher'";
 $result = mysqli_query($conn, $query);
 
 
 ?>
 <head>
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-    <link href="../css/adminStyle.css" rel="stylesheet">
-<!------ Include the above in your HEAD tag ---------->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
 
     <link href='https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
-<link href="../css/adminStyle.css"  rel="stylesheet" type="text/css">
+    <link href="../css/adminStyle.css"  rel="stylesheet" type="text/css">
     <script type="text/javascript" language="JavaScript">
-    $(document).ready(function(){
-        $('[data-toggle="offcanvas"]').click(function(){
-            $("#navigation").toggleClass("hidden-xs");
+        $(document).ready(function(){
+            $('[data-toggle="offcanvas"]').click(function(){
+                $("#navigation").toggleClass("hidden-xs");
+            });
         });
-    });
 
-</script>
+    </script>
 
 
 </head>
@@ -38,8 +46,8 @@ $result = mysqli_query($conn, $query);
 
             <div class="navi" >
                 <ul>
-                    <li class="active"><a href="dashboard.php">Students Detail</a></li>
-                    <li><a href="registeredTeachers.php">Teachers Detail</a></li>
+                    <li><a href="dashboard.php">Students Detail</a></li>
+                    <li  class="active"><a href="registeredTeachers.php">Teachers Detail</a></li>
                     <li><a href="uploadImages.php">Add Images to Gallery</a></li>
                     <li><a href="message.php">Message</a></li>
                 </ul>
@@ -72,12 +80,12 @@ $result = mysqli_query($conn, $query);
                                 <li class="dropdown">
 
 
-                                        <img src="../images/userLogo.png" alt="user">
-                                        <div class="dropdown-content">
+                                    <button class="dropbtn"><img src="../images/userLogo.png" alt="user"></button>
+                                    <div class="dropdown-content">
 
-                                            <a href="logout.php" >logout</a>
+                                        <a href="logout.php">logout</a>
 
-                                        </div>
+                                    </div>
 
                                 </li>
                             </ul>
@@ -86,7 +94,7 @@ $result = mysqli_query($conn, $query);
                 </header>
             </div>
             <div class="user-dashboard">
-                <h1>Details of Registered Students</h1>
+                <h1>Details of Registered Teachers</h1>
 
                 <div class="row">
                     <div class="col-md-12 py-5">
@@ -113,6 +121,7 @@ $result = mysqli_query($conn, $query);
                                         <td><?= $row["street"] ?></td>
                                         <td><?= $row["state"] ?></td>
                                         <td><?= $row["zip"] ?></td>
+                                        <td></td>
                                     </tr>
                                 <?php } } ?>
                             </tbody>

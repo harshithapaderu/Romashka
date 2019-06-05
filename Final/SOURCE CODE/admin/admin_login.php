@@ -20,9 +20,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
 
     $username = $_POST['username'];
     $password = $_POST['password'];
-    echo "$username";
-    echo "$password";
-
+   
     $query = "SELECT * FROM user WHERE email='$username' AND password='$password' AND role='admin' LIMIT 1";
 
     $result = mysqli_query($conn, $query);
@@ -52,7 +50,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
 <!--<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
-<link href="../CSS/style.css" rel="stylesheet">
+<link href="../css/style.css" rel="stylesheet">
     <style>
         input[type=text], input[type=password], input[type=email] {
             width: 30%;
@@ -63,6 +61,50 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
             border: 1px solid #ccc;
             box-sizing: border-box;
         }
+        .content1 {
+            max-width: 100%;
+            margin-left: 10%;
+            margin-right: 10%;
+
+
+
+            align: center
+        }
+        .boxShadow{
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            padding: 1px 1px;
+            background-color: white;
+
+            border-radius: 3px;
+        }
+        .column1 {
+
+            width: 100%;
+
+            /*padding: 10px 8px;*/
+        }
+        .row1 {
+
+            width: 100%;
+            margin-bottom: 6px;
+
+        }
+        .card {
+
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            /*padding: 1px 1px;*/
+
+        }
+        .row {
+            width: 100%;
+            margin-left: 1px;
+
+            /*padding: 10px 10px;*/
+
+        }
+		.msgAlert{
+            align-content: center;
+        }
 
     </style>
 
@@ -71,13 +113,30 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
 <body>
 
 <?php include("include/header.php");?>
-<h2 class="userLogin">Admin Login</h2>
+<section class="whyus">
+<div class="content1" >
+    <div class="row1" >
+        <div class="column1">
+            <div class="card">
+                <div class="row">
+
+                    <div class="container" style="width:100% ; text-align:center; ">
+                        <h2>Admin Login</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--<h2 class="userLogin">Admin Login</h2>-->
+<div style="text-align: center">
 <?php if($is_login_failed){ ?>
-    <div class="alert alert-danger alert-dismissible center-block" style="width: 30%;">
+    <div class="alert alert-danger alert-dismissible center-block msgAlert" style="width: 30%; display: inline-block;">
         <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
         <p > Username or Password is incorrect!!!</p>
     </div>
 <?php } ?>
+</div>
+    <div class="boxShadow">
 <form action="admin_login.php" method="post">
 
 
@@ -94,6 +153,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
 
 
 </form>
-
+    </div>
+</div>
+</section>
 <?php include("include/footer.php");?>
 </body>
