@@ -29,15 +29,20 @@ $result = mysqli_query($conn, $query);
 </script>
 
 
+
+
 </head>
 
 <body class="home">
+
 <div class="container-fluid display-table">
     <div class="row display-table-row">
         <div class="col-md-2 col-sm-1 hidden-xs display-table-cell v-align box" id="navigation" style="background-color: #05935d !important;">
 
             <div class="navi" >
+
                 <ul>
+                    <li style="background-color: white;"><img src="../images/logo.png" style="height: 70px; width: 220px; padding: 10px;" ></li>
                     <li class="active"><a href="dashboard.php">Students Detail</a></li>
                     <li><a href="registeredTeachers.php">Teachers Detail</a></li>
                     <li><a href="uploadImages.php">Add Images to Gallery</a></li>
