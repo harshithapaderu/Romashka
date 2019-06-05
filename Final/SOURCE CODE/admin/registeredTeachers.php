@@ -46,6 +46,7 @@ $result = mysqli_query($conn, $query);
 
             <div class="navi" >
                 <ul>
+                    <li style="background-color: white;"><img src="../images/logo.png" style="height: 70px; width: 220px; padding: 10px;" ></li>
                     <li><a href="dashboard.php">Students Detail</a></li>
                     <li  class="active"><a href="registeredTeachers.php">Teachers Detail</a></li>
                     <li><a href="uploadImages.php">Add Images to Gallery</a></li>
