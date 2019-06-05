@@ -17,7 +17,15 @@
     <link href='https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
     <link href="css/style.css" rel="stylesheet">
    <style>    
-    input[type=text], input[type=password], input[type=email] {            width: 30%;            border-radius: 15px;            padding: 12px 20px;            margin: 8px 0;            display: inline-block;            border: 2px solid #05935d;            box-sizing: border-box;        }        .card {            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);            /*padding: 1px 1px;*/        }        .content1 {            max-width: 100%;            margin-left: 10%;            margin-right: 10%;            align: center        }        .column1 {            width: 100%;            /*padding-top: 15px;*/            padding-bottom: 20px;        }        .row1 {            width: 100%;            margin-bottom: 6px;        }        .row {            width: 100%;            margin-left: 1px;            /*padding: 10px 10px;*/        }		.boxShadow{            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);            padding: 1px 1px;            background-color: white;            border-radius: 3px;        }    </style>
+    input[type=text], input[type=password], input[type=email]
+ {            width: 30%;            border-radius: 15px;            padding: 12px 20px;            margin: 8px 0;            display: inline-block;            border: 2px solid #05935d;            box-sizing: border-box;        } 
+       .card {            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);            /*padding: 1px 1px;*/        }      
+  .content1 {            max-width: 50%;            margin-left: 25%;            margin-right: 10%;            align: center        }    
+    .column1 {            width: 100%;            /*padding-top: 15px;*/            padding-bottom: 20px;        }       
+ .row1 {            width: 100%;            margin-bottom: 6px;        }        .row {            width: 100%;            margin-left: 1px;            /*padding: 10px 10px;*/        }	
+	.boxShadow{            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);            padding: 1px 1px;            background-color: white;            border-radius: 3px;        }  
+  </style>
+
 
 </head>
 <body><?php include("include/header.php");?><section class="whyus">  
@@ -26,7 +34,7 @@
        <div class="column1">         
        <div class="card">            
         <div class="row">               
-         <div class="container" style="width:100% ; text-align:center; ">                 
+         <div class="container" style="width:75% ; text-align:center; ">                 
            <h2>User Registration</h2>            
             </div>        
             </div>   
