@@ -142,9 +142,9 @@
                         <h4>Jane Doe</h4>
                         <p class="title">Maths Teacher</p>
                         <p class="title1">She is 30 year old very experienced teacher.</p>
-                        <small>Jane@example.com</small>
+                        <small>jane@romashka.com</small>
 
-                        <button type="button" class="btn btn-success btn-block" style="width:50%;margin-left:25%" >Contact</button>
+                        <button type="button" class="btn btn-success btn-block" style="width:50%;margin-left:25%" onclick="location.href='mailto:jane@romashka.com'">Contact</button>
                     </div>
                 </div>
             </div>
@@ -156,8 +156,8 @@
                         <h4>Mike Ross</h4>
                         <p class="title">Arts Teacher</p>
                         <p class="title1">Experienced with unique teaching style.Hardworking and punctual</p>
-                        <small>Mike@example.com</small>
-                        <button type="button" class="btn btn-success btn-block" style="width:50%;margin-left:25%" >Contact</button>
+                        <small>mike@romashka.com</small>
+                        <button type="button" class="btn btn-success btn-block" style="width:50%;margin-left:25%" onclick="location.href='mailto:mike@romashka.com'">Contact</button>
                     </div>
                 </div>
             </div>
