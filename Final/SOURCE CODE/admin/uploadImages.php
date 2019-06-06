@@ -125,7 +125,7 @@ if (isset($_POST["submit"])) {
 
             <div class="navi" >
                 <ul>
-                    <li style="background-color: white;"><a href="../index.php" style="background-color: transparent;"><img src="../images/logo.png" style="height: 70px; width: 220px; padding: 10px;" ></li>
+                    <li style="background-color: white;"><a href="../index.php"><img src="../images/logo.png" style="height: 70px; width: 220px; padding: 10px;" ></a></li>
                     <li><a href="dashboard.php">Students Detail</a></li>
                     <li><a href="registeredTeachers.php">Teachers Detail</a></li>
                     <li  class="active"><a href="uploadImages.php">Add Images to Gallery</a></li>
