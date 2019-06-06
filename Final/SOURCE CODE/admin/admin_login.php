@@ -53,7 +53,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
 <link href="../css/style.css" rel="stylesheet">
     <style>
         input[type=text], input[type=password], input[type=email] {
-            width: 30%;
+            width: 50%;
             border-radius: 15px;
             padding: 12px 20px;
             margin: 8px 0;
@@ -62,9 +62,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
             box-sizing: border-box;
         }
         .content1 {
-            max-width: 100%;
-            margin-left: 10%;
-            margin-right: 10%;
+            max-width: 40%;
+            margin-left: 30%;
+            margin-right: 30%;
 
 
 

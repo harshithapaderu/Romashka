@@ -18,7 +18,7 @@
     <link href="css/style.css" rel="stylesheet">
    <style>    
     input[type=text], input[type=password], input[type=email]
- {            width: 30%;            border-radius: 15px;            padding: 12px 20px;            margin: 8px 0;            display: inline-block;            border: 2px solid #05935d;            box-sizing: border-box;        } 
+ {            width: 50%;            border-radius: 15px;            padding: 12px 20px;            margin: 8px 0;            display: inline-block;            border: 2px solid #05935d;            box-sizing: border-box;        } 
        .card {            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);            /*padding: 1px 1px;*/        }      
   .content1 {            max-width: 50%;            margin-left: 25%;            margin-right: 10%;            align: center        }    
     .column1 {            width: 100%;            /*padding-top: 15px;*/            padding-bottom: 20px;        }       
@@ -57,7 +57,7 @@
    <input type="text" placeholder="Enter Zip Code" name="zip" required>   
      <br>
 <!--        <input type="text" placeholder="Select State" name="state" required>-->   
-     <select name="state" class="dropdown_form" style="border:2px solid #05935d;">      
+     <select name="state" class="dropdown_form" style="width:50%; border:2px solid #05935d;">      
       <option value="">Select your State</option>    
         <option value="qld">QLD</option>       
      <option value="nsw">NSW</option>      
