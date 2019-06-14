@@ -94,13 +94,10 @@
 
 .content1 {
   max-width: 100%;
-    margin-left: 15%;
-        margin-right: 15%;
+    margin-left: 10%;
+        margin-right: 10%;
 
-  background-color: #eee;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-	  /*border: 4px solid #555555;*/
-
+ 
   align: center
 }
     h2 {
@@ -132,9 +129,9 @@
 	<div class="row1" >
   <div class="column1">
     <div class="card">
-      <div class="container" style="width:100%">
+      <div class="container" >
         <h4 class="nav-link">WHO WE ARE?</h4>
-        <p class="title2">
+        <p class="title2" style="width:100%;text-align:left;">
 Russian Language School “Romashka” is a not-for profit organization, which provides a good quality
 of education for Russian children who were born in Australia or who came in Australia at a young
 age. The school already exists as it started in 2013. At this moment, the school has 7 teachers, 4
@@ -144,7 +141,7 @@ courses are provided for children within the age group of 2 to 16 years old. Cla
 groups of 8 to 10 students.
 </p>
         <h4 class="nav-link">OUR MISSION:</h4>
-        <p class="title2">
+        <p class="title2" style="width:100%;text-align:left;">
 The primary goal of this project is to develop a responsive website with high efficiency, learnability,
 memorability and safety; for the staff, students/parents of the Russian language school - Romashka
 (Daisy). The secondary goal is to create centralized solution for the marketing team of the school.

@@ -102,13 +102,10 @@
 
         .content1 {
             max-width: 100%;
-            margin-left: 15%;
-            margin-right: 15%;
+            margin-left: 10%;
+            margin-right: 10%;
 
-            background-color: #eee;
-
-            /*border: 4px solid #555555;*/
-
+           
             align: center
         }
 
@@ -143,10 +140,11 @@
                     <img src="images/img1.jpg" alt="Jane" style="width:100%;height:200px;margin-bottom: 10px; ">
                     <div class="container">
                         <h4>Jane Doe</h4>
-                        <p class="title">Math Teacher</p>
-                        <p class="title1">She is 30 year old very experienced teacher.</p>
-                        <small>Jane@example.com</small>
-                        <p><button class="button">Contact</button></p>
+                        <p class="title">Maths Teacher</p>
+                        <p class="title1">She is 30 year old very experienced and talented teacher.</p>
+                       <small>jane@romashka.com</small>
+
+                        <button type="button" class="btn btn-success btn-block" style="width:50%;margin-left:25%" onclick="location.href='mailto:jane@romashka.com'">Contact</button>
                     </div>
                 </div>
             </div>
@@ -156,10 +154,10 @@
                     <img src="images/img2.jpg" alt="Mike" style="width:100%;height:200px;margin-bottom: 10px;">
                     <div class="container">
                         <h4>Mike Ross</h4>
-                        <p class="title">Art Teacher</p>
-                        <p class="title1">Experienced with unique teaching style</p>
-                        <small>Mike@example.com</small>
-                        <p><button class="button">Contact</button></p>
+                        <p class="title">Arts Teacher</p>
+                        <p class="title1">Unique teaching style, hardworking and punctual.</p>
+                        <small>mike@romashka.com</small>
+                        <button type="button" class="btn btn-success btn-block" style="width:50%;margin-left:25%" onclick="location.href='mailto:mike@romashka.com'">Contact</button>
                     </div>
                 </div>
             </div>
@@ -171,8 +169,8 @@
                         <h4>John Doe</h4>
                         <p class="title">Science Teacher</p>
                         <p class="title1">30 year old very experienced professional teacher.</p>
-                        <small>John@example.com</small>
-                        <p><button class="button">Contact</button></p>
+                        <small>john@romashka.com</small>
+                        <button type="button" class="btn btn-success btn-block" style="width:50%;margin-left:25%" onclick="location.href='mailto:john@romashka.com'" >Contact</button>
                     </div>
                 </div>
             </div>
@@ -184,10 +182,11 @@
                     <img src="images/img1.jpg" alt="Jane" style="width:100%;height:200px;margin-bottom: 10px;">
                     <div class="container">
                         <h4>Jane Doe</h4>
-                        <p class="title">Math Teacher</p>
+                        <p class="title">Maths Teacher</p>
                         <p class="title1">32 year old very experienced teacher.</p>
-                        <small>Jane@example.com</small>
-                        <p><button class="button">Contact</button></p>
+                        <small>jane@romashka.com</small>
+
+                        <button type="button" class="btn btn-success btn-block" style="width:50%;margin-left:25%" onclick="location.href='mailto:jane@romashka.com'">Contact</button>
                     </div>
                 </div>
             </div>
@@ -197,10 +196,10 @@
                     <img src="images/img2.jpg" alt="Mike" style="width:100%;height:200px;margin-bottom: 10px;">
                     <div class="container">
                         <h4>Mike Ross</h4>
-                        <p class="title">Art Teacher</p>
-                        <p class="title1">30 year old very experienced teacher..</p>
-                        <small>Mike@example.com</small>
-                        <p><button class="button">Contact</button></p>
+                        <p class="title">Arts Teacher</p>
+                        <p class="title1">30 year old very experienced teacher.</p>
+                         <small>mike@romashka.com</small>
+                        <button type="button" class="btn btn-success btn-block" style="width:50%;margin-left:25%" onclick="location.href='mailto:mike@romashka.com'">Contact</button>
                     </div>
                 </div>
             </div>
@@ -212,8 +211,8 @@
                         <h4>John Doe</h4>
                         <p class="title">Science Teacher</p>
                         <p class="title1">30 year old very experienced teacher.</p>
-                        <small>John@example.com</small>
-                        <p><button class="button">Contact</button></p>
+                        <small>john@romashka.com</small>
+                        <button type="button" class="btn btn-success btn-block" style="width:50%;margin-left:25%" onclick="location.href='mailto:john@romashka.com'" >Contact</button>
                     </div>
                 </div>
             </div>

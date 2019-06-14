@@ -39,7 +39,6 @@
         .column {
 
             width: 50%;
-            height: 700px;
             margin-bottom: 1px;
             padding: 10px 8px;
         }
@@ -102,13 +101,9 @@
 
         .content1 {
             max-width: 100%;
-            margin-left: 5%;
-            margin-right: 5%;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
-
-            background-color: #ffffff;
-            padding: 10px;
-
+            margin-left: 10%;
+            margin-right: 10%;
+           
 
             align: center
         }
@@ -149,7 +144,7 @@
                         <p class="title">EVENT DETAILS</p>
                         <p class="title1">The PTG’s Back to School Picnic is a great way for new and returning families, staff, and alumni to start off the school year.  Food, fun and games for all.  A wonderful time to meet the teachers, welcome new families, and see old friendsIn the winter trimester, our attention turns to The All School Production, an extravaganza of singing, dancing.</p>
                         <small>For More Info Contact: Jane@example.com</small>
-                        <p><button ><a href="https://www.eventbrite.com.au/">Buy Ticket</a></button></p>
+                        <button type="button" class="btn btn-success btn-block" style="width:46%;margin-left:27%" onclick="window.location.href = 'https://www.eventbrite.com/e/ptgs-back-to-school-picnin-tickets-62914481909'"> Buy Ticket </button>
                     </div>
                 </div>
             </div>
@@ -166,10 +161,9 @@
 		
                     <img src="images/event2.jpg" alt="Jane" style="width:100%;height:300px;margin-bottom: 10px;">
                         <p class="title">EVENT DETAILS</p>
-                        <p class="title1">In the winter trimester, our attention turns to The All School Production, an extravaganza of singing, dancing and acting. It brings together the hard work and dedication of students, teachers, and parents from both schools and of all ages, from elementary, middle and high school.… 
-</p>
+                        <p class="title1">In the winter trimester, our attention turns to The All School Production, an extravaganza of singing, dancing and acting. It brings together the hard work and dedication of students, teachers, and parents from both schools and of all ages, from elementary, middle and high school and of all ages, from elementary, middle and high school. </p>
                         <small>For More Info Contact: Jane@example.com</small>
-                        <p><button ><a href="https://www.eventbrite.com.au/">Buy Ticket</a></button></p>
+                        <button type="button" class="btn btn-success btn-block" style="width:46%;margin-left:27%" onclick="window.location.href = 'https://www.eventbrite.com/e/the-all-school-production-tickets-62914858034'"> Buy Ticket </button>
                     </div>
                 </div>
             </div>
@@ -190,7 +184,7 @@
                         <p class="title">EVENT DETAILS</p>
                         <p class="title1">Compared to a one-day Olympics, the SOIS Sports Day is held in October and is a thrilling day for students faculty and families. As with the school festival, the entire event is student-led, with the two-school student council and student committees leading and organizing the planning and the implementation of the activities. These range from highly competitive dodge ball, ultimate....</p>
                         <small>For More Info Contact: Jane@example.com</small>
-                        <p><button ><a href="https://www.eventbrite.com.au/">Buy Ticket</a></button></p>
+                        <button type="button" class="btn btn-success btn-block" style="width:46%;margin-left:27%" onclick="window.location.href = 'https://www.eventbrite.com/e/the-all-school-production-tickets-62914858034'"> Buy Ticket </button>
                     </div>
                 </div>
             </div>
@@ -210,7 +204,7 @@
                         <p class="title1">Held in November, the International Fair brings together the formidable organizational power of our two Parent Associations. Showcasing the multicultural nature of our community, it offers foods, performances, games and goods from around the world ensuring a fun-filled day out for all. An added bonus is that all profits from the day go towards school improvement projects..
 </p>
                         <small>For More Info Contact: Jane@example.com</small>
-                        <p><button ><a href="https://www.eventbrite.com.au/">Buy Ticket</a></button></p>
+                        <button type="button" class="btn btn-success btn-block" style="width:46%;margin-left:27%" onclick="window.location.href = 'https://www.eventbrite.com/e/the-all-school-production-tickets-62914858034'"> Buy Ticket </button>
                     </div>
                 </div>
             </div>
@@ -232,7 +226,7 @@
                         <p class="title">EVENT DETAILS</p>
                         <p class="title1">The PTG’s Back to School Picnic is a great way for new and returning families, staff, and alumni to start off the school year.  Food, fun and games for all.  A wonderful time to meet the teachers, welcome new families, and see old friendsIn the winter trimester, our attention turns to The All School Production, an extravaganza of singing, dancing making costumes, working on lights, sound, hair, and acting..</p>
                         <small>For More Info Contact: Jane@example.com</small>
-                        <p><button ><a href="https://www.eventbrite.com.au/">Buy Ticket</a></button></p>
+                        <button type="button" class="btn btn-success btn-block" style="width:46%;margin-left:27%" onclick="window.location.href = 'https://www.eventbrite.com/e/ptgs-back-to-school-picnin-tickets-62914481909'"> Buy Ticket </button>
                     </div>
                 </div>
             </div>
@@ -252,7 +246,7 @@
                         <p class="title1">In the winter trimester, our attention turns to The All School Production, an extravaganza of singing, dancing and acting. It brings together the hard work and dedication of students, teachers, and parents from both schools and of all ages, from elementary, middle and high school. Students and staff work together on performing, creating props and sets, making costumes, working on lights, sound .
 </p>
                         <small>For More Info Contact: Jane@example.com</small>
-                        <p><button ><a href="https://www.eventbrite.com.au/">Buy Ticket</a></button></p>
+                        <button type="button" class="btn btn-success btn-block" style="width:46%;margin-left:27%" onclick="window.location.href = 'https://www.eventbrite.com/e/ptgs-back-to-school-picnin-tickets-62914481909'"> Buy Ticket </button>
                     </div>
                 </div>
             </div>

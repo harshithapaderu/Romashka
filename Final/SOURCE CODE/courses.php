@@ -108,10 +108,9 @@
 
         .content1 {
             max-width: 100%;
-            margin-left: 12%;
-            margin-right: 12%;
+            margin-left: 10%;
+            margin-right: 10%;
 
-            background-color: #eee;
             align: center
         }
 
@@ -156,43 +155,8 @@
 
                             <div class="container5">
                                 <h4>Russian Math</h4>
-                                <p class="title1">Mathematics includes the study of such topics as quantity, structure, space, and change. Mathematicians seek and use....</p>
-                                <button type="button" class="btn btn-success btn-block" onclick="window.location.href = 'https://romashka.foxycart.com/cart?name=Cool%20Example&price=10&color=red&code=sku123'"> Buy </button>
-                                <script>
-                                    function cartFunction()   {
-                                        <!-- link example -->
-
-                                    <a href="https://romashka.foxycart.com/cart?name=Cool%20Example&price=10&color=red&code=sku123">Trimester</a>
-                                            <!-- form example -->
-
-                                            <form action="https://romashka.foxycart.com/cart" method="post" accept-charset="utf-8">
-
-                                            <input type="hidden" name="Trimester payment" value="Trimester payment" />
-
-                                            <input type="hidden" name="720" value="720" />
-
-                                            <input type="hidden" name="sku123" value="sku123" />
-
-                                            <label class="label_left">Size</label>
-
-                                            <select name="size">
-
-                                            <option value="small">Small</option>
-
-                                            <option value="medium">Medium</option>
-
-                                            <option value="large">Large</option>
-
-                                            </select>
-
-                                            <input type="submit" value="Trimester payment" class="submit" />
-
-                                            </form>
-
-
-
-                                    }
-</script>
+                                <p class="title1">Students are taught to think both on a concrete and abstract level, to employ reason, logic, and to utilize previous knowledge.<br> <br>Price: $15AUD/HR</p>
+                                <button type="button" class="btn btn-success btn-block" style="width:50%" onclick="window.location.href = 'https://payforcourse.foxycart.com/cart?name=Russian%20Mathematics&price=15&code=Rom_Math&image=http://romashka.ictatjcub.com/images/aa2.jpeg&expires=15'"> Pay Now </button>
                             </div>
                         </div>
 
@@ -214,44 +178,9 @@
 
                             <div class="container5">
                                 <h4>Russian Science</h4>
-                                <p class="title1">The strength of Science and its online journal sites rests with the strengths of its community of authors, who provide....</p>
-                                <button type="button" class="btn btn-success btn-block" onclick="window.location.href = 'https://romashka.foxycart.com/cart?name=Cool%20Example&price=10&color=red&code=sku123'"> Buy </button>
-                                <script>
-                                    function cartFunction()   {
-                                        <!-- link example -->
-
-                                    <a href="https://romashka.foxycart.com/cart?name=Cool%20Example&price=10&color=red&code=sku123">Trimester</a>
-
-                                            <!-- form example -->
-
-                                            <form action="https://romashka.foxycart.com/cart" method="post" accept-charset="utf-8">
-
-                                            <input type="hidden" name="name" value="Trimester payment" />
-
-                                            <input type="hidden" name="price" value="720" />
-
-                                            <input type="hidden" name="code" value="sku123" />
-
-                                            <label class="label_left">Size</label>
-
-                                            <select name="size">
-
-                                            <option value="small">Small</option>
-
-                                            <option value="medium">Medium</option>
-
-                                            <option value="large">Large</option>
-
-                                            </select>
-
-                                            <input type="submit" value="Trimester payment" class="submit" />
-
-                                            </form>
-
-
-
-                                    }
-                                </script>
+                                <p class="title1">The strength of Science and its online journal sites rests with the strengths of its community of authors.<br> <br>Price: $15AUD/HR</p>
+                                <button type="button" class="btn btn-success btn-block" style="width:50%" onclick="window.location.href = 'https://payforcourse.foxycart.com/cart?name=Russian%20Science&price=15&code=Rom_Sci&image=http://romashka.ictatjcub.com/images/science.png&expires=15'"> Pay Now </button>
+                           
                             </div>
                         </div>
 
@@ -274,44 +203,9 @@
 
 
                             <div class="container5">
-                                <h4>Russian Language</h4>
-                                <p class="title1">Russian is the largest native language in Europe and the most geographically widespread language in Eurasia. It is the ....</p>
-                                <button type="button" class="btn btn-success btn-block" onclick="window.location.href = 'https://romashka.foxycart.com/cart?name=Cool%20Example&price=10&color=red&code=sku123'"> Buy </button>
-                                <script>
-                                    function cartFunction()   {
-                                        <!-- link example -->
-
-                                    <a href="https://romashka.foxycart.com/cart?name=Cool%20Example&price=10&color=red&code=sku123">Trimester</a>
-                                            <!-- form example -->
-
-                                            <form action="https://romashka.foxycart.com/cart" method="post" accept-charset="utf-8">
-
-                                            <input type="hidden" name="name" value="Trimester payment" />
-
-                                            <input type="hidden" name="price" value="720" />
-
-                                            <input type="hidden" name="code" value="sku123" />
-
-                                            <label class="label_left">Size</label>
-
-                                            <select name="size">
-
-                                            <option value="small">Small</option>
-
-                                            <option value="medium">Medium</option>
-
-                                            <option value="large">Large</option>
-
-                                            </select>
-
-                                            <input type="submit" value="Trimester payment" class="submit" />
-
-                                            </form>
-
-
-
-                                    }
-                                </script>
+                                <h4>Russian History</h4>
+                                <p class="title1">Russian is the largest native language in Europe and the most geographically widespread language in Eurasia.<br> <br>Price: $15AUD/HR</p>
+                              <button type="button" class="btn btn-success btn-block" style="width:50%" onclick="window.location.href = 'https://payforcourse.foxycart.com/cart?name=Russian%20History&price=15&code=Rom_His&image=http://romashka.ictatjcub.com/images/iucyrillic.png&expires=15'"> Pay Now </button>
                             </div>
                         </div>
 
@@ -333,45 +227,9 @@
 
                             <div class="container5">
                                 <h4>Russian Literature</h4>
-                                <p class="title1">Literature, a body of written works. The name has traditionally been applied to those imaginative works of poetry and prose....</p>
-                                <button type="button" class="btn btn-success btn-block" onclick="window.location.href = 'https://romashka.foxycart.com/cart?name=Cool%20Example&price=10&color=red&code=sku123'"> Buy </button>
-                                <script>
-                                        function cartFunction()   {
-                                             <!-- link example -->
-
-<a href="https://romashka.foxycart.com/cart?name=Cool%20Example&price=10&color=red&code=sku123">Trimester</a>
-
-<!-- form example -->
-
-<form action="https://romashka.foxycart.com/cart" method="post" accept-charset="utf-8">
-
-<input type="hidden" name="name" value="Trimester payment" />
-
-<input type="hidden" name="price" value="720" />
-
-<input type="hidden" name="code" value="sku123" />
-
-<label class="label_left">Size</label>
-
-<select name="size">
-
-    <option value="small">Small</option>
-
-    <option value="medium">Medium</option>
-
-    <option value="large">Large</option>
-
-</select>
-
-<input type="submit" value="Trimester payment" class="submit" />
-
-</form>
-
-
-
-                                }
-
-                            </script>
+                                <p class="title1">Literature, a body of written works. The name has traditionally been applied to those imaginative works of poetry and prose.<br> <br>Price: $15AUD/HR</p>
+                                <button type="button" class="btn btn-success btn-block" style="width:50%" onclick="window.location.href = 'https://payforcourse.foxycart.com/cart?name=Russian%20Literature&price=15&code=Rom_Lit&image=http://romashka.ictatjcub.com/images/lit.jpg&expires=15'"> Pay Now </button>
+                              
                             </div>
                         </div>
 
@@ -391,10 +249,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
 <!-- FOXYCART -->
-
-<script data-cfasync="false" src="https://cdn.foxycart.com/romashka/loader.js" async defer></script>
-
+<script data-cfasync="false" src="https://cdn.foxycart.com/payforcourse/loader.js" async defer></script>
 <!-- /FOXYCART -->
+
 </body>
 </html>

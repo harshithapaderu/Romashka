@@ -74,7 +74,7 @@
 			</div>
 		
 	<div class="form-group">
-		<label for="" class="control-label">Businss Email (<a href="#">Privacy Policy</a>)</label>
+		<label for="" class="control-label">Business Email</label>
 		<input type="text" class="form-control" name="" required />
 	</div>
 	<div class="form-group">
@@ -82,7 +82,7 @@
 		<input type="text" class="form-control" name="" required />
 	</div>
 	<div class="form-group">
-		<label for="" class="control-label">Tell us about yourself</label>
+		<label for="" class="control-label">Your Query</label>
 		<textarea type="text" class="form-control" name="" required ></textarea>
 	</div>
 	<div class="form-group">
